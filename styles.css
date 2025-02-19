@@ -1,0 +1,16 @@
+.container {
+    width: 60%;
+    height: 0;
+    padding-bottom: 60%;
+    display: flex;
+    margin: 0px auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.gridSquare {
+    /* 32 is hard coded based off 16*16 grid */
+    padding: calc(100%/32);
+    background-color: red;
+    flex: 1;
+}
