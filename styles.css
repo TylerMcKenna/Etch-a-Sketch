@@ -11,6 +11,10 @@
 .gridSquare {
     /* 32 is hard coded based off 16*16 grid */
     padding: calc(100%/32);
-    background-color: red;
+    background-color: rgb(212, 210, 210);
     flex: 1;
+}
+
+.gridSquare .hovered {
+    background-color: rgb(47, 45, 45);
 }
